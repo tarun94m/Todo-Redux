@@ -6,6 +6,8 @@ const actions=TodoSlice.actions;
 
 function TodoRedux(){
 
+    const list=[];
+
     const {value, todoList}=useSelector((store)=>{
         return store.todoState;
     })

@@ -18,7 +18,7 @@ const TodoSlice=createSlice({
             const task=desObj.payload;
             let newTaskArr=[...state.todoList, task];
             state.todoList=newTaskArr;
-                   }
+        }
     }
 });
 
